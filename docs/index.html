@@ -66,27 +66,34 @@
     letter-spacing: 0.5px;
   }
   .cert-badge{
-    text-align:right;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    gap:6px;
     font-size:0.8rem;
     color:#DCE5F2;
   }
-  .cert-badge strong{
-    display:block;
-    font-size:0.95rem;
-    color:#fff;
-    margin-bottom:2px;
+  .sba-logo{
+    height: 56px;
+    width: auto;
+    background: #fff;
+    padding: 6px 10px;
+    border-radius: 4px;
   }
   .title-band{
-    position:relative;
-    margin-top: 34px;
+    background: var(--navy-deep);
+    color:#fff;
+    padding: 20px 32px;
   }
   .title-band h2{
-    margin:0;
+    max-width: 980px;
+    margin: 0 auto;
     font-size: 1.6rem;
     letter-spacing: 1px;
   }
   .title-band .ids{
-    margin-top: 8px;
+    max-width: 980px;
+    margin: 8px auto 0;
     font-size: 0.95rem;
   }
   .title-band .ids a{
@@ -198,21 +205,22 @@
       <div class="tag">Architecting solutions that keep teams mission focused.</div>
     </div>
     <div class="cert-badge">
-      <strong>SBA Registered</strong>
-      Small Business
+      <img src="images/SBA-Logo-Stacked-Reverse.ai" class="sba-logo">
+      <span>Small Business Registered</span>
     </div>
   </div>
-  <div class="title-band">
-    <h2>CAPABILITY STATEMENT</h2>
-    <div class="ids">CAGE: <a href="#">0QTN5</a> &nbsp;|&nbsp; UEI: <a href="#">ZRBDXGV8PY23</a></div>
-  </div>
 </header>
+
+<div class="title-band">
+  <h2>CAPABILITY STATEMENT</h2>
+  <div class="ids">CAGE: <a href="#">0QTN5</a> &nbsp;|&nbsp; UEI: <a href="#">ZRBDXGV8PY23</a></div>
+</div>
 
 <div class="wrap">
 
   <div class="mission">
     <h3>Our Mission</h3>
-    <p>TechNefficient is a forward-thinking, customer-based IT and test-driven development software solutions small business. We specialize in solutions architecture, cloud IT, software deployment automation, DevOps, and post-deployment testing automation to ensure your high-quality product is delivered to your customer without affecting your bottom line.</p>
+    <p>TechNefficient is a forward-thinking, customer-based IT and test-driven development software solutions small business. We specialize in solutions architecture, software deployment automation, DevOps, and post-deployment testing automation to ensure your high-quality product is delivered to your customer without affecting your bottom line.</p>
   </div>
 
   <div class="band">Why Choose Us?</div>
@@ -263,7 +271,7 @@
       <p>517410 &nbsp;|&nbsp; 541330 &nbsp;|&nbsp; 541519 &nbsp;|&nbsp; 541511 &nbsp;|&nbsp; 561320</p>
     </div>
     <div class="contact">
-      <p class="name">Justin Haxton, COO</p>
+      <p class="name">Justin Haxton, CEO</p>
       <p>(720) 936-4546</p>
       <p><a href="mailto:info@technefficient.com" style="color:var(--navy);">info@technefficient.com</a></p>
     </div>
