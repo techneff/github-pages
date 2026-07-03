@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TechNefficient | Capability Statement</title>
+<style>
+  :root{
+    --navy: #12325E;
+    --navy-deep: #0C2340;
+    --ink: #1B1F27;
+    --paper: #FFFFFF;
+    --hair: #D8DEE7;
+    --muted: #5B6577;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: var(--ink);
+    background: var(--paper);
+    line-height:1.5;
+  }
+  .wrap{
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 32px 64px;
+  }
+
+  /* Header */
+  header{
+    position:relative;
+    background: var(--navy);
+    color: #fff;
+    padding: 40px 32px 56px;
+    overflow:hidden;
+  }
+  header .diagonal{
+    position:absolute;
+    right:-10%;
+    top:0;
+    width:60%;
+    height:100%;
+    background: var(--navy-deep);
+    clip-path: polygon(35% 0, 100% 0, 100% 100%, 0% 100%);
+    opacity:0.55;
+  }
+  .header-inner{
+    position:relative;
+    max-width: 980px;
+    margin:0 auto;
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap: 20px;
+  }
+  .brand h1{
+    margin:0 0 6px;
+    font-size: 2.1rem;
+    letter-spacing:0.5px;
+  }
+  .brand .tag{
+    font-size: 0.95rem;
+    color: #C9D6E8;
+    letter-spacing: 0.5px;
+  }
+  .cert-badge{
+    text-align:right;
+    font-size:0.8rem;
+    color:#DCE5F2;
+  }
+  .cert-badge strong{
+    display:block;
+    font-size:0.95rem;
+    color:#fff;
+    margin-bottom:2px;
+  }
+  .title-band{
+    position:relative;
+    margin-top: 34px;
+  }
+  .title-band h2{
+    margin:0;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+  }
+  .title-band .ids{
+    margin-top: 8px;
+    font-size: 0.95rem;
+  }
+  .title-band .ids a{
+    color:#9FC1F2;
+    text-decoration: underline;
+  }
+
+  /* Mission */
+  .mission{
+    padding: 32px 0 8px;
+  }
+  .mission h3{
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 1.5px;
+    color: var(--navy);
+    margin: 0 0 10px;
+  }
+  .mission p{
+    font-size: 1.02rem;
+    color: var(--ink);
+    max-width: 640px;
+  }
+
+  /* Section band */
+  .band{
+    background: var(--navy);
+    color:#fff;
+    text-align:center;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    font-size: 0.95rem;
+    font-weight:600;
+    padding: 10px 0;
+    margin: 28px 0 28px;
+  }
+
+  .columns{
+    display:grid;
+    grid-template-columns: 1.15fr 1fr;
+    gap: 48px;
+  }
+  h4{
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    color: var(--navy);
+    border-bottom: 2px solid var(--navy);
+    padding-bottom: 6px;
+    margin: 0 0 12px;
+  }
+  ul{
+    margin: 0 0 24px;
+    padding-left: 20px;
+  }
+  ul li{
+    margin-bottom: 6px;
+    font-size: 0.98rem;
+  }
+  .past-perf-list{
+    columns: 2;
+    -webkit-columns: 2;
+    list-style: disc;
+  }
+
+  footer{
+    margin-top: 12px;
+    border-top: 1px solid var(--hair);
+    padding-top: 24px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .naics h4{ margin-bottom: 8px; }
+  .naics p{
+    font-size: 0.95rem;
+    color: var(--muted);
+    letter-spacing: 0.5px;
+  }
+  .contact{
+    text-align:right;
+  }
+  .contact p{
+    margin: 2px 0;
+    font-size: 0.95rem;
+  }
+  .contact .name{
+    font-weight:600;
+    color: var(--navy);
+  }
+
+  @media (max-width: 680px){
+    .columns{ grid-template-columns: 1fr; gap: 8px; }
+    .past-perf-list{ columns: 1; }
+    .contact{ text-align:left; }
+    footer{ flex-direction: column; }
+    header{ padding: 32px 20px 44px; }
+    .wrap{ padding: 0 20px 48px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="diagonal"></div>
+  <div class="header-inner">
+    <div class="brand">
+      <h1>TechNefficient</h1>
+      <div class="tag">Architecting solutions that keep teams mission focused.</div>
+    </div>
+    <div class="cert-badge">
+      <strong>SBA Registered</strong>
+      Small Business
+    </div>
+  </div>
+  <div class="title-band">
+    <h2>CAPABILITY STATEMENT</h2>
+    <div class="ids">CAGE: <a href="#">0QTN5</a> &nbsp;|&nbsp; UEI: <a href="#">ZRBDXGV8PY23</a></div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="mission">
+    <h3>Our Mission</h3>
+    <p>TechNefficient is a forward-thinking, customer-based IT and test-driven development software solutions small business. We specialize in solutions architecture, cloud IT, software deployment automation, DevOps, and post-deployment testing automation to ensure your high-quality product is delivered to your customer without affecting your bottom line.</p>
+  </div>
+
+  <div class="band">Why Choose Us?</div>
+
+  <div class="columns">
+    <div>
+      <h4>Past Performance <span style="font-weight:400; color:var(--muted); font-size:0.85rem;">(W-2 Employee)</span></h4>
+      <ul class="past-perf-list">
+        <li>NRO</li>
+        <li>I2SPO</li>
+        <li>DoD</li>
+        <li>GED</li>
+        <li>NAVY</li>
+      </ul>
+
+      <h4>Sample Projects</h4>
+      <ul>
+        <li>Architected, developed, deployed, and monitored advanced file transfer capability using industry best practices and CI/CD methodologies.</li>
+        <li>Python automation script to monitor ground system usage.</li>
+        <li>Set up AWS CloudWatch logging to monitor stack pod health.</li>
+        <li>Created and maintained software deployment pipelines.</li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Core Competencies</h4>
+      <ul>
+        <li>Solutions Architecture</li>
+        <li>Cloud Engineering</li>
+        <li>Automation Engineering</li>
+        <li>DevOps</li>
+        <li>Agile Framework</li>
+        <li>CI/CD Methodologies</li>
+      </ul>
+
+      <h4>Differentiators</h4>
+      <ul>
+        <li>Active TS/SCI clearance eligibility; able to transition under sponsoring contractor.</li>
+        <li>Security+ certified</li>
+        <li>DoD (GCC High) Experience</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <div class="naics">
+      <h4>NAICS Codes</h4>
+      <p>517410 &nbsp;|&nbsp; 541330 &nbsp;|&nbsp; 541519 &nbsp;|&nbsp; 541511 &nbsp;|&nbsp; 561320</p>
+    </div>
+    <div class="contact">
+      <p class="name">Justin Haxton, COO</p>
+      <p>(720) 936-4546</p>
+      <p><a href="mailto:info@technefficient.com" style="color:var(--navy);">info@technefficient.com</a></p>
+    </div>
+  </footer>
+
+</div>
+
+</body>
+</html>
